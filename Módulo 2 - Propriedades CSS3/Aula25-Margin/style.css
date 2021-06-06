@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bloco {
+    width: 20vw;
+    height: 20vw;
+    background-color: #487eb8;
+    margin: 2vw 4vw 8vw 16vw;
+}

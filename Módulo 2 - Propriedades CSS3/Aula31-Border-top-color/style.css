@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    border-style: dotted;
+    border-width: 10vh;
+    background-color: black;
+    border-left-color: orange;
+    border-right-color: blueviolet;
+    border-top-color: green;
+    border-bottom-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body:hover {
+    border-color: rgb(59, 197, 121);
+}
+
+div {
+    border-color: red;
+    border-width: 10px;
+    border-style: inherit;
+    width: 200px;
+    height: 200px;
+}
